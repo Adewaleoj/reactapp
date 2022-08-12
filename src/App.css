@@ -1,0 +1,118 @@
+* {
+margin: 0;
+padding : 0px;
+}
+
+.container {
+    background: linear-gradient(to right bottom, yellow, green);
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.app-wrapper {
+    background-color: pink;
+    min-width: 450px;
+    min-height: 650px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 6px 40px #030;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    color: #fff;
+    text-align: center;
+    margin: 30px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.task-input {
+    outline: none;
+    width: 260px;
+    padding: 15px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: #cfe;
+    background-color: #445444;
+    border: 1px solid #944833;
+    border-radius: 10px;
+}
+
+.button-add {
+    width: 70px;
+    padding: 15px 13px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f3e233;
+    cursor: pointer;
+}
+
+.list-item {
+    display: flex;
+    margin: 20px 0;
+    border: 1px solid #fcf;
+    padding: 20px;
+    max-height: 30px;
+}
+
+.button-complete, .button-delete, .button-edit {
+border: none;
+outline: #fcf;
+cursor: pointer; 
+background-color: transparent;
+font-size: 26px;
+border-radius: 50%;
+}
+
+.button-complete {
+    color: #ff6c52;
+    margin-right: 12px;
+}
+
+.button-edit {
+    color: #e2d823;
+margin-right: 10px;
+}
+
+.button-delete {
+    color: rgb(173, 174, 230);
+}
+
+.complete {
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color: #ff6c52;
+    opacity: 0.6;
+}
+
+.list {
+width: 360px;
+background-color: #229b;
+border: white;
+color: purple;
+font-size: 20px;
+padding-left: 20px;
+margin-right: 20; 
+border-radius:13px ;
+}
+
+input:focus,
+button:focus {
+  outline: none;  
+}
+
+.date {
+    background-color: chartreuse;
+    margin-right: 20;
+    border-radius:13px ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 300;
+font-display: flex;
+font-size: large;
+width: 100px;
+}
